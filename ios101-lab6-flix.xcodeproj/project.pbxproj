@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C681FBA2ADEEEC000094289 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C681FB92ADEEEC000094289 /* DetailViewController.swift */; };
 		ED83EE9A29B05FCE007A4FC9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83EE9929B05FCE007A4FC9 /* Movie.swift */; };
 		ED83EE9D29B06A4C007A4FC9 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = ED83EE9C29B06A4C007A4FC9 /* Nuke */; };
 		ED83EEA129B71218007A4FC9 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83EEA029B71218007A4FC9 /* MovieCell.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C681FB92ADEEEC000094289 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		ED83EE9929B05FCE007A4FC9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		ED83EEA029B71218007A4FC9 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		ED88ABEE29AD9858008A6FF6 /* ios101-lab6-flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios101-lab6-flix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +45,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C681FB62ADEED6C00094289 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED83EEA029B71218007A4FC9 /* MovieCell.swift */,
+				ED83EE9929B05FCE007A4FC9 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C681FB72ADEED7C00094289 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED88ABF729AD9858008A6FF6 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C681FB82ADEED8D00094289 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ED88ABF529AD9858008A6FF6 /* ViewController.swift */,
+				6C681FB92ADEEEC000094289 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		ED88ABE529AD9858008A6FF6 = {
 			isa = PBXGroup;
 			children = (
@@ -62,12 +90,11 @@
 		ED88ABF029AD9858008A6FF6 /* ios101-lab6-flix */ = {
 			isa = PBXGroup;
 			children = (
+				6C681FB82ADEED8D00094289 /* Controller */,
+				6C681FB72ADEED7C00094289 /* View */,
+				6C681FB62ADEED6C00094289 /* Model */,
 				ED88ABF129AD9858008A6FF6 /* AppDelegate.swift */,
 				ED88ABF329AD9858008A6FF6 /* SceneDelegate.swift */,
-				ED88ABF529AD9858008A6FF6 /* ViewController.swift */,
-				ED83EE9929B05FCE007A4FC9 /* Movie.swift */,
-				ED83EEA029B71218007A4FC9 /* MovieCell.swift */,
-				ED88ABF729AD9858008A6FF6 /* Main.storyboard */,
 				ED88ABFA29AD9859008A6FF6 /* Assets.xcassets */,
 				ED88ABFC29AD9859008A6FF6 /* LaunchScreen.storyboard */,
 				ED88ABFF29AD9859008A6FF6 /* Info.plist */,
@@ -155,6 +182,7 @@
 				ED88ABF629AD9858008A6FF6 /* ViewController.swift in Sources */,
 				ED88ABF229AD9858008A6FF6 /* AppDelegate.swift in Sources */,
 				ED83EE9A29B05FCE007A4FC9 /* Movie.swift in Sources */,
+				6C681FBA2ADEEEC000094289 /* DetailViewController.swift in Sources */,
 				ED83EEA129B71218007A4FC9 /* MovieCell.swift in Sources */,
 				ED88ABF429AD9858008A6FF6 /* SceneDelegate.swift in Sources */,
 			);
